@@ -1,12 +1,6 @@
-import { Component } from "react";
+export const Section = ({children}) => {
 
-export class Section extends Component{
-
-        render(){
-            const {children} = this.props;
-            return  <section>
-                        {children}
-                    </section>
-        }
-
+    return  <section>
+                {children}
+            </section>
 }

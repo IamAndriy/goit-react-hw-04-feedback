@@ -1,12 +1,9 @@
-import { Component } from "react";
 import css from "./Notification.module.css";
 
-export class Notification extends Component {
+export const Notification = ({massage}) => {
 
-    render(){
-        const {massage} = this.props;
-        return  <div className={css["massage-div"]}>
-                    <p>{massage}</p>
-                </div>
-    }
+    return  <div className={css["massage-div"]}>
+                <p>{massage}</p>
+            </div>
+
 }
