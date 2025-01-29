@@ -1,0 +1,12 @@
+.statistics{
+    margin-top: 10px;
+}
+.statistics-total{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-top: 1px solid black ;
+}
+.statistics-data{
+    font-size: 18px;
+}
