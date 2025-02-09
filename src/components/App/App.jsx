@@ -50,7 +50,7 @@ export const App = () => {
                 <Section>
                     <h2 className={css["title-h2"]}>Statistics</h2>
                     {!total
-                        ?   <Notification massage="There is no feedback"/> 
+                        ?   <Notification message="There is no feedback yet"/> 
                         :   <Statistics good={good} 
                                         neutral={neutral} 
                                         bed={bed} 
